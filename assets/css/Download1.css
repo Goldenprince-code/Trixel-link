@@ -1,0 +1,105 @@
+body{
+    padding: 0;
+    margin: 0;
+}
+.navbar {
+    width: 100%;
+    margin: auto;
+    padding: 0;
+    display: inline-block;
+    text-align: center;
+    background-color:  #6495ed;
+    color: #fff;
+}
+.navbar ul li{
+    list-style: none;
+    display: inline-block;
+    margin: 0 20px;
+    position: relative;
+}
+nav{
+    background-color: rgb(63, 59, 59);
+    height: 3vh;
+}
+.wrapper{
+    width: 80%;
+    margin-left: 15%;
+}
+.left-side{
+    width: 20%;
+    float: left;
+    padding: 10px;
+}
+#left-side{
+    padding: 5px;
+    border: 3px outset rgb(105, 105, 104);
+    background-color: rgb(207, 199, 187);
+    float: left;
+    line-height: 0;
+    color: #000;
+    text-align: center;
+}
+#left-side h5{
+    text-align: left;
+}
+
+.left-side h3{
+    color: #000;
+    
+
+}
+.left-side p{
+    top: 15%;
+    padding: 5px;
+}
+.center{
+    width: 30%;
+    float: left;
+    padding: 10px;
+}
+.right-side{
+    width: 35%;
+    padding: 10px;
+    float: left;
+}
+#right-side{
+    float: left;
+}
+.right-side h3{
+    color: #000;
+}
+.right-side p{
+    padding: 5px;
+}
+
+footer{
+    width: 100%;
+    clear: both;
+    background-color: #1313f8 ;
+    text-align: center;
+    height: 40vh;
+    padding: 15px;
+    color: #fff;
+}
+.purchase button{
+    color: rgb(255, 255, 255);
+    border: 3px outset rgb(255, 255, 255);
+    background-color: #1313f8;
+    width: 100px;
+    height: 30px;
+    border-radius: 10px;
+    margin: 5px;
+
+}
+.purchase button:hover{
+    transform: translate3d(-3px);
+    transition: ease-out 0.5s;
+    background-color: white;
+    color: rgb(0, 0, 255);
+}
+
+@media screen and (max-width:600px){
+    aside, section, article{
+        width: 100%;
+    }
+}
